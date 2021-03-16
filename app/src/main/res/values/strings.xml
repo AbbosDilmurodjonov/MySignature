@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MySignature</string>
+    <string name="sign_desc">Расписка о получении инструктажа на предмет указанный в ...</string>
+    <string name="signer">Dilmurodjonov Abbos</string>
+    <string name="sign_date">16.03.2021</string>
+</resources>

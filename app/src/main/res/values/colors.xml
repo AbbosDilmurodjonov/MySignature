@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFF</color>
+
+    <color name="colorPrimary">#306060</color>
+
+    <color name="sign_color">#2196F3</color>
+
+    <color name="backgroundLight">#EFF3F4</color>
+
+    <color name="textDark">#434A54</color>
+    <color name="textLight">#AAB3BC</color>
+</resources>

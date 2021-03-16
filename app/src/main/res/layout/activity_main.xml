@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:overScrollMode="never"
+    android:paddingTop="@dimen/paddingStandart"
+    android:paddingBottom="@dimen/margin_40">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingHorizontal="@dimen/paddingStandart"
+        tools:context=".kotlin.MainActivity">
+
+        <TextView
+            style="@style/textInfo"
+            android:layout_marginTop="@dimen/margin_40"
+            android:text="What is Lorem Ipsum?"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/textInfo"
+            android:layout_marginTop="@dimen/marginHalf"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." />
+
+        <TextView
+            style="@style/textInfo"
+            android:layout_marginTop="@dimen/margin_40"
+            android:text="Where does it come from?"
+            android:textStyle="bold" />
+
+        <TextView
+            style="@style/textInfo"
+            android:layout_marginTop="@dimen/marginHalf"
+            android:text="Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, comes from a line in section 1.10.32." />
+
+        <TextView
+            style="@style/textInfoLabel"
+            android:layout_marginTop="@dimen/margin_40"
+            android:text="@string/sign_desc" />
+
+
+        <LinearLayout
+            android:id="@+id/layoutSign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/marginStandart"
+            android:background="@drawable/border"
+            android:foreground="?selectableItemBackground"
+            android:orientation="vertical"
+            android:padding="@dimen/paddingHalf"
+            tools:ignore="UnusedAttribute">
+
+            <ImageView
+                android:id="@+id/imageSignResult"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center_horizontal"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textSigner"
+                style="@style/textInfo"
+                android:layout_marginTop="@dimen/marginHalf"
+                android:text="@string/signer" />
+
+            <TextView
+                style="@style/textInfoLabel"
+                android:text="@string/sign_date" />
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

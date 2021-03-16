@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingHalf">8dp</dimen>
+    <dimen name="marginStandart">16dp</dimen>
+    <dimen name="padding_4">4dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="paddingStandart">16dp</dimen>
+    <dimen name="textDesc">14dp</dimen>
+    <dimen name="textStandart">16dp</dimen>
+    <dimen name="marginHalf">8dp</dimen>
+</resources>
